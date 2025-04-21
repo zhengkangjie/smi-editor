@@ -1,0 +1,4 @@
+alignment_train_cpu_binding
+alignment_train_cuda_binding
+fairseq
+fairseq_cli
