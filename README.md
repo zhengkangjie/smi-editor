@@ -94,6 +94,8 @@ fairseq-train ${data_path} \
   --fp16-scale-tolerance 0.1 > ${logfile} 2>&1
 ```
 
+Path to the model arch: `fairseq/models/roberta/levenshtein_encoder.py`
+
 ## Evaluation
 
 To evaluate SMI-Editor on MoleculeNet or other downstream molecular property prediction tasks, we recommend following the evaluation protocol used in [Uni-Mol](https://github.com/dptech-corp/Uni-Mol).
